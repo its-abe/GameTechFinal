@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-GameTechFinal/[Ll]ibrary/
-GameTechFinal/[Tt]emp/
-GameTechFinal/[Oo]bj/
-GameTechFinal/[Bb]uild/
-GameTechFinal/[Bb]uilds/
-GameTechFinal/[Ll]ogs/
-GameTechFinal/[Uu]ser[Ss]ettings/
+*GameTechFinal/[Ll]ibrary/
+*GameTechFinal/[Tt]emp/
+*GameTechFinal/[Oo]bj/
+*GameTechFinal/[Bb]uild/
+*GameTechFinal/[Bb]uilds/
+*GameTechFinal/[Ll]ogs/
+*GameTechFinal/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
