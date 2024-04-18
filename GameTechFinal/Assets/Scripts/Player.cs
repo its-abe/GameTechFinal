@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float jump;
     private Animator m_Animator;
     private bool jumping;
+    private Transform trans;
 
     private bool reverseState;
     float jumpCooldown = 1.0f;
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         m_Animator = GetComponentInChildren<Animator>();
+        trans = GameObject.Find("Graphics").transform;
         reverseState = false;
         jumping = false;
     }
@@ -37,10 +39,12 @@ public class Player : MonoBehaviour
             transform.position = new Vector2(transform.position.x, transform.position.y - 4f);
             rb.gravityScale = -3;
             reverseState = true;
+            trans.rotation = Quaternion.Euler(0, 0, 180);
         } else if (Input.GetKeyDown(KeyCode.Space) && reverseState == true){
             transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
             rb.gravityScale = 3;
             reverseState = false;
+            trans.rotation = Quaternion.Euler(0, 0, 0);
         }
         if (Input.GetKeyDown(KeyCode.LeftShift) && !reverseState && timeSinceJump > jumpCooldown)
             {
