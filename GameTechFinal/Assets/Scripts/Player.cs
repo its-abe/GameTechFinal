@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     public float jump;
 
     private bool reverseState;
+    float jumpCooldown = 1.0f;
+    float timeSinceJump = 0.0f;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -14,6 +16,7 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        timeSinceJump += Time.deltaTime;
         if (Input.GetKey(KeyCode.D))
         {
             // Move right
@@ -34,13 +37,15 @@ public class Player : MonoBehaviour
             rb.gravityScale = 3;
             reverseState = false;
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !reverseState)
-        {
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !reverseState && timeSinceJump > jumpCooldown)
+            {
+            timeSinceJump = 0;
             rb.AddForce(new Vector2(rb.velocity.x, jump));
             }
-        if (Input.GetKeyDown(KeyCode.LeftShift) && reverseState)
-    {
-    rb.AddForce(new Vector2(rb.velocity.x, -jump));
-}
+        if (Input.GetKeyDown(KeyCode.LeftShift) && reverseState && timeSinceJump > jumpCooldown)
+            {
+                timeSinceJump = 0;
+                rb.AddForce(new Vector2(rb.velocity.x, -jump));
+            }
     }
 }
