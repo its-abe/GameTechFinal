@@ -1029,10 +1029,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 1300145754227636423, guid: 4c1e1c3799bc50547b095b23e96bfaa1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1393911776276289005, guid: 4c1e1c3799bc50547b095b23e96bfaa1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.4628804
@@ -1076,22 +1072,6 @@ PrefabInstance:
     - target: {fileID: 6729572470611840976, guid: 4c1e1c3799bc50547b095b23e96bfaa1, type: 3}
       propertyPath: jump
       value: 1700
-      objectReference: {fileID: 0}
-    - target: {fileID: 6729572470611840976, guid: 4c1e1c3799bc50547b095b23e96bfaa1, type: 3}
-      propertyPath: isGrounded
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6729572470611840976, guid: 4c1e1c3799bc50547b095b23e96bfaa1, type: 3}
-      propertyPath: groundCheck
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6729572470611840976, guid: 4c1e1c3799bc50547b095b23e96bfaa1, type: 3}
-      propertyPath: groundMask.m_Bits
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6729572470611840976, guid: 4c1e1c3799bc50547b095b23e96bfaa1, type: 3}
-      propertyPath: groundLayer.m_Bits
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8504636348796819317, guid: 4c1e1c3799bc50547b095b23e96bfaa1, type: 3}
       propertyPath: m_Mass
