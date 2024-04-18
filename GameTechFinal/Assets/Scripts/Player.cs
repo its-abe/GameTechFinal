@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     private Animator m_Animator;
     private bool jumping;
     private Transform trans;
-
+    private float vertical;
     private bool reverseState;
     float jumpCooldown = 1.0f;
     float timeSinceJump = 0.0f;
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
         {
             transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
             m_Animator.SetBool("walking", true);
-            trans.rotation = Quaternion.Euler(0, 180, 0);
+            trans.rotation = Quaternion.Euler(0, 180, vertical);
         }
         // Check if the A key is pressed
         else if (Input.GetKey(KeyCode.A))
@@ -35,17 +35,19 @@ public class Player : MonoBehaviour
             // Move left
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
             m_Animator.SetBool("walking", true);
-            trans.rotation = Quaternion.Euler(0, 0, 0);
+            trans.rotation = Quaternion.Euler(0, 0, vertical);
         }
         if (Input.GetKeyDown(KeyCode.Space) && !reverseState){
             transform.position = new Vector2(transform.position.x, transform.position.y - 4f);
             rb.gravityScale = -3;
             reverseState = true;
-            trans.rotation = Quaternion.Euler(0, 0, 180);
+            vertical = 180;
+            trans.rotation = Quaternion.Euler(0, 0, vertical);
         } else if (Input.GetKeyDown(KeyCode.Space) && reverseState == true){
             transform.position = new Vector2(transform.position.x, transform.position.y + 4f);
             rb.gravityScale = 3;
             reverseState = false;
+            vertical = 0;
             trans.rotation = Quaternion.Euler(0, 0, 0);
         }
         if (Input.GetKeyDown(KeyCode.LeftShift) && !reverseState && timeSinceJump > jumpCooldown)
