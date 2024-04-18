@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
         {
             transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
             m_Animator.SetBool("walking", true);
+            trans.rotation = Quaternion.Euler(0, 180, 0);
         }
         // Check if the A key is pressed
         else if (Input.GetKey(KeyCode.A))
@@ -34,6 +35,7 @@ public class Player : MonoBehaviour
             // Move left
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
             m_Animator.SetBool("walking", true);
+            trans.rotation = Quaternion.Euler(0, 0, 0);
         }
         if (Input.GetKeyDown(KeyCode.Space) && !reverseState){
             transform.position = new Vector2(transform.position.x, transform.position.y - 4f);
