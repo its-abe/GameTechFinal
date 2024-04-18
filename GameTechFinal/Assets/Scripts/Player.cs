@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        m_Animator = gameObject.GetComponent<Animator>();
+        m_Animator = GetComponentInChildren<Animator>();
         reverseState = false;
         jumping = false;
     }
