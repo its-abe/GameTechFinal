@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 630
+        width: 119
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa4a3e4a5584664b880554d004ab14e
+      internalID: 339120869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 629
+        width: 115
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee68ca2680e1dde4c90163e5c695e425
+      internalID: -1800720834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 629
+        width: 122
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c98a896928e63447907d7a659014853
+      internalID: -2070362289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_3
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 629
+        width: 137
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cfdae14120f564ab3aa4f04c22eced
+      internalID: 688039776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_4
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 630
+        width: 151
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4569d28172a9444ac387f18f254dbb
+      internalID: -2022912756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_5
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 630
+        width: 173
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5660efa734d37f4e829293a6c980308
+      internalID: 891563784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_6
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 629
+        width: 170
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1585f27186089fd428ab76c2d382f331
+      internalID: 295581802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_7
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 628
+        width: 173
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552802515fc23b04d85ba3b7685d38b5
+      internalID: 1387545219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_8
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 631
+        width: 172
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57212f4039eeed4abcc8744ba94b085
+      internalID: -2124618066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_9
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 629
+        width: 169
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d4ff6593b96c941b47c683e3145a42
+      internalID: -1639495825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 437
+        width: 163
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460ff20598e1a4b41a734dc3eb3bc5d2
+      internalID: -2040588730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 433
+        width: 163
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f09cd9203f830439945b0455affde2
+      internalID: 644229119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_19
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 431
+        width: 163
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44de34ae3242ac4e88381c57fe21132
+      internalID: -462605860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_20
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 432
+        width: 163
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4b61b55ed927540a401d1f736dd8de
+      internalID: 911642823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_21
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 434
+        width: 162
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1511b20b0af26014e8ffe21f864ad8f7
+      internalID: -1188841533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_22
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 437
+        width: 163
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1db807f84af34d4384cccde3426d75b
+      internalID: -58849870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_23
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 439
+        width: 163
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122e5ccf7c02f8e41bc429008867a746
+      internalID: 1535354175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_24
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 440
+        width: 162
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71251fd62437f1429ce1ad98b984a75
+      internalID: 1419845855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazmat_Spreadsheet_death_25
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 443
+        width: 163
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c3e504be9ff574691855c66eec2d0d
+      internalID: -788132060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +518,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hazmat_Spreadsheet_death_0: 339120869
+      Hazmat_Spreadsheet_death_1: -1800720834
+      Hazmat_Spreadsheet_death_10: -1499365735
+      Hazmat_Spreadsheet_death_11: 1500458887
+      Hazmat_Spreadsheet_death_12: -1697471335
+      Hazmat_Spreadsheet_death_13: 1965187993
+      Hazmat_Spreadsheet_death_14: 1034816079
+      Hazmat_Spreadsheet_death_15: -1670728935
+      Hazmat_Spreadsheet_death_16: -1812894075
+      Hazmat_Spreadsheet_death_17: -2040588730
+      Hazmat_Spreadsheet_death_18: 644229119
+      Hazmat_Spreadsheet_death_19: -462605860
+      Hazmat_Spreadsheet_death_2: -2070362289
+      Hazmat_Spreadsheet_death_20: 911642823
+      Hazmat_Spreadsheet_death_21: -1188841533
+      Hazmat_Spreadsheet_death_22: -58849870
+      Hazmat_Spreadsheet_death_23: 1535354175
+      Hazmat_Spreadsheet_death_24: 1419845855
+      Hazmat_Spreadsheet_death_25: -788132060
+      Hazmat_Spreadsheet_death_3: 688039776
+      Hazmat_Spreadsheet_death_4: -2022912756
+      Hazmat_Spreadsheet_death_5: 891563784
+      Hazmat_Spreadsheet_death_6: 295581802
+      Hazmat_Spreadsheet_death_7: 1387545219
+      Hazmat_Spreadsheet_death_8: -2124618066
+      Hazmat_Spreadsheet_death_9: -1639495825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
